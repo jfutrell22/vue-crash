@@ -2,7 +2,7 @@
   <div class="container">
     <Header @toggle-add-task="toggleAddTask" title="Task Tracker" :showAddTask="showAddTask"></Header>
     
-    <router-view></router-view>
+    <router-view :showAddTask="showAddTask"></router-view>
     <Footer></Footer>
   </div>
   

@@ -23,6 +23,12 @@
       "text": "sdcv",
       "day": "sdaf",
       "reminder": true
+    },
+    {
+      "id": "5af6",
+      "text": "test",
+      "day": "test3",
+      "reminder": false
     }
   ]
 }
